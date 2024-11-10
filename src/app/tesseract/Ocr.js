@@ -154,12 +154,12 @@ const chooseNew = () => {
                   modules={modules}
                   onChange={setText}
                   theme="snow"
-                  className="h-[70vh]"
+                  className="md:h-[70vh] h-1/2 overflow-auto"
                   defaultValue={text}
                   />
                   </div>
               </div>
-              <div className="mt-10">
+              <div className="mt-5">
               <button className="shadow-lg shadow-black p-2 bg-red-700 m-5 text-white" onClick={handleCopyText}>
                 Copy Text
               </button>
